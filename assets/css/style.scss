@@ -17,3 +17,27 @@ h1, h2, h3, h4, h5, h6 {
   color:#FFFFFF;
   margin:0 0 20px;
 }
+
+a {
+  color:#267CB9;
+  text-decoration:underline;
+}
+
+a:hover, a:focus {
+  color:#069;
+  font-weight: bold;
+  text-decoration:underline;
+}
+
+a small {
+  font-size:11px;
+  color:#777;
+  margin-top:-0.3em;
+  display:block;
+  text-decoration:underline;
+}
+
+a:hover small {
+  color:#777;
+  text-decoration:underline;
+}
