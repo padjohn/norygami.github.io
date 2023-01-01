@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-@import url(//fonts.googleapis.com/css?family=Jost);
 
 * {
 	box-sizing: border-box;
@@ -14,7 +13,9 @@
 
 .wrapper {
 	display: flex;
-	ming-height: 70vh;
+	min-height: 70vh;
+	gap: 5em;
+	
 }
 
 .sidebar {
@@ -24,11 +25,17 @@
 	flex-direction: column;
 }
 
+.footer {
+	display: flex;
+	justify-content: center;
+}
+
 footer {
 	position: relative;
 	margin-top: auto;
 	bottom: initial;
 	padding-top: 2em;
+	font-size: 14px
 }
 
 header {
@@ -84,22 +91,36 @@ header {
 .grid-container > div {
   text-align: center;
   padding: 20px 0;
-  font-size: 30px;
+  font-size: 24px;
+}
+
+strong {
+color: #FFF;
 }
 
 body {
  justify-content: center;
  background-color:#000;
  padding:50px;
- font:14px/1.5 "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font:24px/1.5 "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
  color:#FFFFFF;
  font-weight:400;
  padding-top: 1em;
+ padding-bottom: 0em;
+}
+
+h1 {
+font-size: 48px;
+font-weight: 800;
+}
+
+h2 {
+font-size: 36px;
 }
 
 section {
  padding-top: 2em;
-
+ text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -108,12 +129,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color:#267CB9;
+  color:#801e1e;
   text-decoration:underline;
 }
 
 a:hover, a:focus {
-  color:#069;
+  color:#952323;
   font-weight: bold;
   text-decoration:underline;
 }
