@@ -2,9 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+@import url(//fonts.googleapis.com/css?family=Jost);
 
 body {
-  background-color: #000;
+  background-color: #000000;
   padding:50px;
   font: 14px/1.5 "Jost", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#FFFFFF;
