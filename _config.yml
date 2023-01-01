@@ -3,6 +3,7 @@
 # Defaults settings https://jekyllrb.com/docs/configuration/#default-configuration
 
 title: TRACHI
+logo: /assets/img/ARedC.png
 description: "2023"
 
 url: # trachii.org
