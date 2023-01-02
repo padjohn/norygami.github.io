@@ -1,0 +1,41 @@
+steam:
+  id: ''
+  href: 'https://store.steampowered.com/search/?franchise=TRACHI'
+  title: 'Steam'
+  fa-icon: '-brands fa-square-steam'
+  
+itch:
+  id: 'norygami'
+  href: 'https://itch.io/profile/'
+  title: 'itch'
+  fa-icon: '-brands fa-itch-io'
+  
+github:
+  id: 'norygami'
+  href: 'https://github.com/'
+  title: 'GitHub'
+  fa-icon: '-brands fa-github-square'
+
+email:
+  id: 'mail@trachi.net'
+  href: 'mailto:'
+  title: 'Email'
+  fa-icon: '-solid fa-square-envelope'
+
+discord:
+  id: ''
+  href: 'https://discord.gg/SvaYDEUasg'
+  title: 'Discord'
+  fa-icon: '-brands fa-discord'
+
+twitter:
+  id: 'Trachi12'
+  href: 'https://twitter.com/'
+  title: 'Twitter'
+  fa-icon: '-brands fa-square-twitter'
+  
+instagram:
+  id: 'trachiv'
+  href: 'https://www.instagram.com/'
+  title: 'Instagram'
+  fa-icon: '-brands fa-square-instagram'

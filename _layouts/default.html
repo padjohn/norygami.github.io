@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,11 +23,8 @@
         <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/n3Z_UfriJFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        {% if site.github.is_project_page %}
-        <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
-        {% endif %}
+		
+        <p class="social-media">Social Media:{% include social-media-links.html %}</p>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
