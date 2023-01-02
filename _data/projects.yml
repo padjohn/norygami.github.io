@@ -1,0 +1,9 @@
+trachi:
+  id: 'TRACHI'
+  href: ''
+  imgsrc: 'Banner_TRACHI.png'
+
+authority:
+  id: 'AUTHORITY'
+  href: '/sub/authority/authority.html'
+  imgsrc: 'Banner_AUTHORITY.png'

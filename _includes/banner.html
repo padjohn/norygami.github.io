@@ -1,0 +1,8 @@
+{% if site.data.projects %}
+<div class="banner">
+    {% assign bn = site.data.projects[page.project] %}
+        {% if bn != %}
+            <a href="{{site.baseurl}}{{ bn[.href }}" title="{{ bn.id }}"><img src="{{site.baseurl}}/assets/img/{{ bn.imgsrc }}"></a>
+        {% endif %}
+</div>
+{% endif %}

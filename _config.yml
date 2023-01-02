@@ -19,3 +19,37 @@ plugins:
 # exclude:  
 # - .gitignore
 # - CNAME 
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      project: "trachi"
+  -
+    scope:
+      path: "sub/autonomy"
+      type: "pages"
+    values:
+      project: "autonomy"  
+  -
+    scope:
+      path: "sub/autonomy/invasion"
+      type: "pages"
+    values:
+      project: "invasion"
+  -
+    scope:
+      path: "sub/authority"
+      type: "pages"
+    values:
+      project: "authority"   
+  -
+    scope:
+      path: "sub/anarchy"
+      type: "pages"
+    values:
+      project: "anarchy"
+
+    

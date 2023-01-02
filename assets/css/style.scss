@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color:#801e1e;
   text-decoration:underline;
+  font-weight:450;
 }
 
 a:hover, a:focus {
@@ -143,6 +144,10 @@ a small {
 a:hover small {
   color:#777;
   text-decoration:underline;
+}
+
+.projects a {
+  color:#FFF;
 }
 
 .video-container {
