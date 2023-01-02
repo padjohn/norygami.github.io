@@ -6,7 +6,7 @@ Struggling to survive.
 
 *"It's all bullshit, anyway."*
 
-Pack your bags and get your tent.  
+Pack your bags and grab your tent.  
 We're going to a better place.
 <br />
 <br />
