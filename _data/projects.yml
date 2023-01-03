@@ -2,8 +2,33 @@ trachi:
   id: 'TRACHI'
   href: ''
   imgsrc: 'Banner_TRACHI.png'
+  width: '948px'
+  height: '229px'
+  
+autonomy:
+  id: 'AUTONOMY'
+  href: '/sub/autonomy/autonomy.html'
+  imgsrc: 'Banner_AUTONOMY.png'
+  width: '1400px'
+  height: '186px'
+
+invasion:
+  id: 'invAsion'
+  href: '/sub/autonomy/invasion/invasion.html'
+  imgsrc: 'Banner_InvAsion.png'
+  width: '709px'
+  height: '162px'
 
 authority:
   id: 'AUTHORITY'
   href: '/sub/authority/authority.html'
   imgsrc: 'Banner_AUTHORITY.png'
+  width: '1350px'
+  height: '184px'
+  
+anarchy:
+  id: 'ANARCHY'
+  href: '/sub/anarchy/anarchy.html'
+  imgsrc: 'Banner_ANARCHY.png'
+  width: '1350px'
+  height: '184px'

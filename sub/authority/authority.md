@@ -14,6 +14,6 @@ And everyone has a reason to die.
 # Technicals
 
 **Early development.**  
-**Prologue: InfAntry – Fall 2023.**
+**Prologue: InfAntry – Fall 2024.**
 
 ----
