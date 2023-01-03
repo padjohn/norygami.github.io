@@ -4,7 +4,7 @@
 A couple billion people.  
 Struggling to survive.
 
-*"It's all bullshit, anyway."*
+*"What about you?"*
 
 Pack your bags and grab your tent.  
 We're going to a better place.
