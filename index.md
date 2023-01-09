@@ -13,7 +13,7 @@ We're going somewhere else.
 
 # Technicals
 
-**In production.**  
+**In production**  
 **2019-20XX**
 
 ----
