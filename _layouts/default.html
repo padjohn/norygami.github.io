@@ -7,63 +7,97 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="/main.js"></script>
     {% include head-custom.html %}
   </head>
   <body>
-	{% include banner.html %}
-    <div class="wrapper">
-	<div class="sidebar">
-      <header>
-        {% if site.logo %}
-        {% endif %}
-        <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/n3Z_UfriJFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-		
-        <p class="social-media">Social Media:{% include social-media-links.html %}</p>
-
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-		<div class="projects">
-		<p>
-			<a style="font-weight: 500" href='{{site.url}}/'>HOME</a></br>
-		</p>
+  <div class="container">
+	<div class="row">
+		<div class="col-sm-12 hidden-lg hidden-md visible-sm visible-xs">
+			<select id="sub-menu" name="sub-menu">
+				<option>TRACHI</option>
+				<option value="{{site.url}}/">Home</option>
+				<option value="/sub/autonomy/autonomy">AUTONOMY</option>
+				<option value="/sub/autonomy/invasion/invasion">InvAsion</option>
+				<option value="/sub/authority/authority">AUTHORITY</option>
+			</select>
 		</div>
-		<p>
-		– Released –</br> 
-		
-			<a href="/sub/autonomy/autonomy">AUTONOMY</a></br>  
-			<a href="/sub/autonomy/invasion/invasion">InvAsion</a></br>
-		</p>
-		– Upcoming –</br>
-		<a href="/sub/authority/authority">AUTHORITY</a></br> 
-		<a href=''>ANARCHY</a> (Soon)
-      </header>
-	  </div>
-      <section>
+	</div>
+</div>
+<!-- <div class="container">
+	<div class="row">
+		<aside class="sidebar col-lg-3 col-md-4 col-xs-12 mb-5">
+			<div class="dynamicDiv" id="dd.0.4.0">
+				<div class="sidebar-wrapper">
+					<nav>
+						<ul class="nolist hidden-sm hidden-xs">
+							<li><a href="https://www.solodev.com/blog/">Blog</a></li>
+							<li><a href="https://www.solodev.com/product/create.stml">Create Your Website</a></li>
+							<li><a href="https://www.solodev.com/product/host.stml">Secure Cloud Hosting</a></li>
+							<li><a href="https://www.solodev.com/product/engage.stml">Engage Your Audience</a></li>
+							<li><a href="https://www.solodev.com/product/support.stml">Support</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</aside>
+		<div class="content col-lg-9 col-md-8 col-xs-12">
+			<div class="dynamicDiv" id="dd.0.4.1"></div>-->
 
-      {{ content }}
-
-      </section>
-	  </div>
+<div class="container">
+{% include banner.html %}
+	<div class="row" style="padding: 2em">
+		<aside class="sidebar col-lg-3 col-md-4">
+			<div class="dynamicDiv" id="dd.0.4.0">			
+				<div class="sidebar-wrapper">
+					<header class="nolist hidden-sm hidden-xs">
+						{% if site.logo %}
+						{% endif %}
+						<div class="video-container">
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/n3Z_UfriJFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>						
+						<p class="social-media">Social Media:{% include social-media-links.html %}</p>
+						<div class="projects">
+						<p>
+							<a style="font-weight: 500" href='{{site.url}}/'>HOME</a></br>
+						</p>
+						</div>
+						<p>
+						– Released –</br> 
+							<a href="/sub/autonomy/autonomy">AUTONOMY</a></br>  
+							<a href="/sub/autonomy/invasion/invasion">InvAsion</a></br>
+						</p>
+						– Upcoming –</br>
+							<a href="/sub/authority/authority">AUTHORITY</a></br> 
+							<a href=''>ANARCHY</a> (Soon)
+					</header>
+				</div>
+			</div>
+		</aside>
+		<div class="content col-lg-9 col-md-8 col-xs-12">
+			<div class="dynamicDiv" id="dd.0.4.1"></div>
+				<div class="row">
+					<div class="col-sm-12">
+						<section>
+						{{ content }}
+						</section>
+					</div>
+				</div>
+		</div>
+	</div>
 	  <div class="footer">
 	  <footer>
       Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></br>
       <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
 	  </div>
-	  </div>
 
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+</div>
   </body>
 </html>

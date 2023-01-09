@@ -1,6 +1,8 @@
 ----
 # Three spies and a city –
-<img width="511" height="144" src="/assets/img/People_AUTONOMY.png"> 
+<div class="--aspect-ratio:16/9;">
+<img src="/assets/img/People_AUTONOMY.png" alt="Atlas, Ganymede, Daphne">
+</div>
 ## Three days and a revolution.  
 An isometric, story-driven adventure.  
   A game about political warfare, extortion – and revenge.

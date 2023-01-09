@@ -2,7 +2,7 @@
 <div class="banner">
     {% assign bn = site.data.projects[page.project] %}
         {% if bn != %}
-            <a href="{{site.baseurl}}{{ bn[.href }}" title="{{ bn.id }}"><img width="{{ bn[.width }}" height="{{ bn[.height }}" src="{{site.baseurl}}/assets/img/{{ bn.imgsrc }}"></a>
+            <a href="{{site.baseurl}}{{ bn[.href }}" title="{{ bn.id }}"><img id="banner" width="{{ bn[.width }}" height="{{ bn[.height }}" src="{{site.baseurl}}/assets/img/{{ bn.imgsrc }}"></a>
         {% endif %}
 </div>
 {% endif %}
