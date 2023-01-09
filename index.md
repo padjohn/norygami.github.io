@@ -1,13 +1,13 @@
 ----
-# United in misery.
-## A world about to die.
-A couple billion people.  
-Struggling to survive.
+# A sentiment of sympathy.  
+## For people with no voice.  
+An ounce of solidarity.  
+For those without a choice.  
 
 *"What about you?"*
 
 Pack your bags and grab your tent.  
-We're going to a better place.
+We're going somewhere else.
 <br />
 <br />
 
