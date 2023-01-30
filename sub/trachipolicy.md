@@ -3,8 +3,7 @@
 ---
 ----
 
-TRACHI Policy  
-PRIVACY POLICY
+### TRACHI Policy  
 
 Privacy Policy (Last update January 2023)
 
