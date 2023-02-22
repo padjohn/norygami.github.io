@@ -1,19 +1,18 @@
 ----
-# Three universes.
-## 4,294,967,296 different shades.
-A moment of your time.
-Endless possibilites.
+# A world born from a wish.  
+## A deep desire to go back.  
+To live and die forever.   
+Among a bunch of friends.  
 
-*"Copium."*
+*"Copium."*  
 
-Everyone needs a home.
-This can be yours.
-<br />
+Everybody needs a home.  
+This one can be yours.  
 <br />
 
 # Technicals
 
 **Early development.**  
-**Prototype – Fall 2023.**
+**Prototype – Coming Fall 2023.**
 
 ----
