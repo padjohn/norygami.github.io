@@ -1,5 +1,5 @@
 ----
-# A world born from a wish.  
+# A world born from a dream.  
 ## A deep desire to go back.  
 To live and die forever.   
 Among a bunch of friends.  
