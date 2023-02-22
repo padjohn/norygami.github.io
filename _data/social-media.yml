@@ -39,3 +39,9 @@ instagram:
   href: 'https://www.instagram.com/'
   title: 'Instagram'
   fa-icon: '-brands fa-square-instagram'
+  
+patreon:
+  id: 'trachi'
+  href: 'https://www.patreon.com/'
+  title: 'Instagram'
+  fa-icon: '-brands fa-patreon'
