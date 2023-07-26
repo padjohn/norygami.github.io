@@ -34,7 +34,7 @@ anarchy:
   height: '177px'
   
  excommunication:
-  id: 'ANARCHY'
+  id: 'excommunication'
   href: '/sub/anarchy/anarchy.html'
   imgsrc: 'Banner_ANARCHY.png'
   width: '888px'
