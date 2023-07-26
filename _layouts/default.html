@@ -30,28 +30,10 @@
 		</div>
 	</div>
 </div>
-<!-- <div class="container">
-	<div class="row">
-		<aside class="sidebar col-lg-3 col-md-4 col-xs-12 mb-5">
-			<div class="dynamicDiv" id="dd.0.4.0">
-				<div class="sidebar-wrapper">
-					<nav>
-						<ul class="nolist hidden-sm hidden-xs">
-							<li><a href="https://www.solodev.com/blog/">Blog</a></li>
-							<li><a href="https://www.solodev.com/product/create.stml">Create Your Website</a></li>
-							<li><a href="https://www.solodev.com/product/host.stml">Secure Cloud Hosting</a></li>
-							<li><a href="https://www.solodev.com/product/engage.stml">Engage Your Audience</a></li>
-							<li><a href="https://www.solodev.com/product/support.stml">Support</a></li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-		</aside>
-		<div class="content col-lg-9 col-md-8 col-xs-12">
-			<div class="dynamicDiv" id="dd.0.4.1"></div>-->
 
 <div class="container">
 {% include banner.html %}
+{% unless page.excommunication %}
 	<div class="row" style="padding: 2em">
 		<aside class="sidebar col-lg-3 col-md-4">
 			<div class="dynamicDiv" id="dd.0.4.0">			
@@ -70,7 +52,7 @@
 						</div>
 						<p>
 						– Released –</br> 
-							<a href="/sub/autonomy/autonomy">AUTONOMY</a></br>  
+							<a href="/sub/autonomy/autonomy">AUTONOMY</a></br>
 							<a href="/sub/autonomy/invasion/invasion">InvAsion</a></br>
 						</p>
 						– Upcoming –</br>
@@ -96,7 +78,15 @@
       <small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small>
       </footer>
 	  </div>
+	 {% endunless %}
 
 </div>
+{% if page.excommunication %}
+	<div id="build">
+	<iframe src="/assets/build/index.html" style="top: 0; left: 0; width: 1600px; height: 900px; position: center;" scrolling="no" >
+	</iframe>
+	</div>
+	{{ content }}
+{% endif %}
   </body>
 </html>
