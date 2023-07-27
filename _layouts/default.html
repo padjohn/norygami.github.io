@@ -39,8 +39,6 @@
 			<div class="dynamicDiv" id="dd.0.4.0">			
 				<div class="sidebar-wrapper">
 					<header class="nolist hidden-sm hidden-xs">
-						{% if site.logo %}
-						{% endif %}
 						<div class="video-container">
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/n3Z_UfriJFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>						
@@ -83,8 +81,9 @@
 </div>
 {% if page.excommunication %}
 	<div id="build">
-	<iframe src="/assets/build/index.html" style="top: 0; left: 0; width: 1600px; height: 900px; position: center;" scrolling="no" >
+	<iframe src="/assets/build/index.html" style="top: 0; left: 0; width: 1600px; height: 900px; position: center;" scrolling="no">
 	</iframe>
+	<p class="social-media">{% include social-media-links.html %}</p>
 	</div>
 	{{ content }}
 {% endif %}
