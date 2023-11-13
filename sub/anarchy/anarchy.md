@@ -2,9 +2,9 @@
 # A world born from a dream.  
 ## A deep desire to go back.  
 To live and die forever.   
-Among a bunch of friends.  
+To kill a bunch of friends.  
 
-*"Copium."*  
+*"Over and over again."*  
 
 Everybody needs a home.  
 This one can be yours.  
@@ -12,7 +12,7 @@ This one can be yours.
 
 # Technicals
 
-**Early development.**  
-**Prototype – Coming Fall 2023.**
+**Early Access.**  
+**[Steam](https://www.google.com](https://store.steampowered.com/app/2169000/TRACHI__ANARCHY/)https://store.steampowered.com/app/2169000/TRACHI__ANARCHY/).**
 
 ----
