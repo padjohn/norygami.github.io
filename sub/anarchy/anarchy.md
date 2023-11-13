@@ -12,7 +12,7 @@ This one can be yours.
 
 # Technicals
 
-**Steam.**  
+**Steam**  
 **[ANARCHY](https://www.google.com](https://store.steampowered.com/app/2169000/TRACHI__ANARCHY/)https://store.steampowered.com/app/2169000/TRACHI__ANARCHY/)**
 
 ----
